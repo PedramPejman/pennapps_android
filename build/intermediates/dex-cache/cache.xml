@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Jessica/AndroidStudioProjects/MyApplication/Background/build/intermediates/exploded-aar/com.thalmic/myosdk/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d189db75174a41996c33bb243d2228aacf10fa53">
+        <dex dex="/Users/Jessica/AndroidStudioProjects/MyApplication/Background/build/intermediates/pre-dexed/debug/classes-0e00f26e6de2f1afb4320a8568a0c45581db0485.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thalmic.android.sample.helloworld.HelloWorldActivity"
+    tools:ignore="MergeRootFrame">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/initialize"
+        android:text="Initialize"
+        android:enabled="false"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/lock_state"
+        android:text="@string/locked"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="top|center_horizontal"
+        tools:ignore="SpUsage"/>
+
+    <TextView
+        android:layout_below="@+id/initialize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/text"
+        android:text="SleepEasy"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:ignore="SpUsage"/>
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sleepPos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/Jessica/AndroidStudioProjects/MyApplication/HelloWorld/src/main/res/layout/activity_hello_world.xml -->
